@@ -3,15 +3,11 @@ import React from "react";
 const Login = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-blue-100 to-blue-300 px-4">
-      
       <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl p-6 sm:p-8">
-        
         <h2 className="text-2xl font-bold text-center text-blue-700">
           Login to Rysource
         </h2>
-        <p className="text-center text-gray-500 mt-1">
-          Sign in to continue
-        </p>
+        <p className="text-center text-gray-500 mt-1">Sign in to continue</p>
 
         <form className="mt-6 space-y-4">
           <input
@@ -44,7 +40,6 @@ const Login = () => {
             Sign up
           </span>
         </p>
-
       </div>
     </div>
   );
