@@ -12,6 +12,7 @@ function ProductCard({ product }) {
         </h2>
         <h2 className="text-sm text-black">{product.description}</h2>
         <h2 className="text-2xl text-black">{product.price}</h2>
+        <h1>this is raja</h1>
         <p className="text-sm text-black">posted on:{product.created_at}</p>
       </div>
     </>
